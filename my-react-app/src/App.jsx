@@ -11,16 +11,18 @@ import Footer   from './components/Footer'
 
 export default function App() {
   return (
-    <div className="min-h-dvh bg-zinc-950 text-zinc-100">
+    <div className="min-h-dvh overflow-x-hidden bg-zinc-950 text-zinc-100">
       <Background />
       <Navbar />
-      <Hero />
-      <Services />
-      <Portfolio />
-      <Why />
-      <About />
-      <CTA />
-      <Contact />
+      <main>
+        <Hero />
+        <Services />
+        <Portfolio />
+        <Why />
+        <About />
+        <CTA />
+        <Contact />
+      </main>
       <Footer />
     </div>
   )

@@ -16,14 +16,14 @@ export default function Hero() {
       <div className="container-page relative">
         <div className="mx-auto max-w-3xl text-center">
           <Reveal>
-            <span className="tag mx-auto">
+            <span className="tag mx-auto px-3 tracking-normal sm:tracking-[0.18em]">
               <Sparkles className="h-3.5 w-3.5 text-indigo-200" />
               Available for new projects
             </span>
           </Reveal>
 
           <Reveal delay={0.08}>
-            <h1 className="mt-6 text-balance text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
+            <h1 className="mt-6 text-balance text-3xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
               Modern Websites & Business Systems for{' '}
               <span className="bg-gradient-to-r from-indigo-300 via-violet-200 to-sky-200 bg-clip-text text-transparent">
                 Growing Businesses

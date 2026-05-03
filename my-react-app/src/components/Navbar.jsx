@@ -30,7 +30,7 @@ export default function Navbar() {
         >
           <div className="container-page flex h-16 items-center justify-between">
             <a href="#home" className="group inline-flex items-center gap-2">
-              <span className="text-base font-extrabold tracking-tight sm:text-lg">
+              <span className="text-[15px] font-extrabold tracking-tight sm:text-lg">
                 <span className="bg-gradient-to-r from-indigo-400 via-violet-400 to-sky-300 bg-clip-text text-transparent">
                   Mekuanint
                 </span>{' '}
